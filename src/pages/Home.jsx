@@ -94,7 +94,7 @@ const Home = () => {
             valueLabelDisplay="auto"
           />
         </div>
-        <div className="weight-age__box container">
+        <div className="weight-age__box ">
           <div className="weight-box">
             <h4 className="weight-title title">Vazningiz</h4>
             <span className="weight-count">{weight}</span>

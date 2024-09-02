@@ -215,19 +215,25 @@ a {
 }
 
 @media only screen and (max-width: 400px) {
+  .home-content {
+    display: flex;
+    align-items: center;
+  }
   .container {
+    width: 100%;
     max-width: 300px;
   }
 
   .weight-age__box {
     gap: 50px;
-    width: 100%;
-    /* flex-direction: column; */
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
   }
 
   .weight-box,
   .age-box {
     width: 100%;
+
   }
 }
